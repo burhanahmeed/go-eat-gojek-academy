@@ -14,3 +14,8 @@ elsif input == '2'
 else
     puts "Noting"
 end
+
+
+def makeMap
+	arr1 = Array.new(3) { Array.new(3)}
+end
