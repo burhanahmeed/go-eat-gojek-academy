@@ -17,14 +17,19 @@ class Map
 		map = createMap(dt)
 		puts map[1]		
 		i = 0
-		while i < dt.length
-			puts "#{dt[i]} = #{Matrix[*map[0]].index(dt[i])}"
+		result = []
+		while i < dt.length			
+			result << "#{dt[i]}"
+			result << "#{Matrix[*map[0]].index(dt[i])}"
 			i +=1
-		end
+		end		
+		# puts Hash[*result]
+		return Hash[*result]
 	end
+	def self.init()
+		data = ['D1', 'D2', 'D3', 'D4', 'D5', 'S1', 'S2', 'S3', 'UU']
+		object = Map. new
+		# object.createMap
+		return object.coordinates(data)	
+	end	
 end
-
-data = ['D1', 'D2', 'D3', 'D4', 'D5', 'S1', 'S2', 'S3', 'UU']
-object = Map. new
-# object.createMap
-object.coordinates(data)
