@@ -9,6 +9,14 @@ class InitializeData
 			'nama' => 'Gudeg goreng',
 			'toko' => 'S1',
 			'harga' => '2000'
+		},{
+			'nama' => 'Seblak Geprek',
+			'toko' => 'S1',
+			'harga' => '4200'
+		},{
+			'nama' => 'Nasi Goreng Kuah Rawon',
+			'toko' => 'S1',
+			'harga' => '5200'
 		}]
 	end
 	def self.store2
@@ -20,6 +28,14 @@ class InitializeData
 			'nama' => 'Es Dawet',
 			'toko' => 'S2',
 			'harga' => '2400'
+		},{
+			'nama' => 'Sop buah panas',
+			'toko' => 'S2',
+			'harga' => '2800'
+		},{
+			'nama' => 'Rujak Ekor Sapi',
+			'toko' => 'S2',
+			'harga' => '5400'
 		}]
 	end
 	def self.store3
@@ -31,6 +47,14 @@ class InitializeData
 			'nama' => 'Es Kelapa Tua',
 			'toko' => 'S3',
 			'harga' => '4400'
+		},{
+			'nama' => 'Nasi Kebuli + Iga ayam',
+			'toko' => 'S3',
+			'harga' => '8400'
+		},{
+			'nama' => 'Sate Kalkun Goreng',
+			'toko' => 'S3',
+			'harga' => '7400'
 		}]
 	end
 end
